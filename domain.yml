@@ -1,0 +1,95 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - stop
+  - order_pizza
+  - place_order
+  - chitchat
+
+entities:
+  - size
+  - pizza_type
+  - topping
+
+slots:
+  size:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: size
+      intent: place_order
+  topping:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: topping
+      intent: place_order
+  pizza_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: pizza_type
+      intent: place_order
+
+responses:
+  utter_greet:
+  - text: "Hi! I am PIBO, your personal pizza connoisseur."
+  - text: "Hey! Would you like to order a pizza?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great!"
+
+  utter_goodbye:
+  - text: "Thanks for your time! Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_pizza_type:
+  - text: Which pizza would you like to order?
+  - text: What kind of pizza would you like to buy?
+
+  utter_ask_size:
+  - text: What size would you like your pizza to be?
+
+  utter_ask_topping:
+  - text: What topping would you like to add to the pizza?
+
+  utter_ask_continue:
+  - text: Are you sure you want to stop the form?
+
+  utter_pizza_slots:
+  - text: I will order a {size} {pizza_type} pizza with {topping} topping.
+
+  utter_submit:
+  - text: I will now order a pizza for you!
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+forms:
+  pizza_form:
+    required_slots:
+        - pizza_type
+        - size
+        - topping
+
+actions:
+  - validate_pizza_form
