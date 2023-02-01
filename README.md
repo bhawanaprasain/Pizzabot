@@ -19,7 +19,7 @@ Before getting started with the chatbot, make sure you have the following requir
 - pip (package manager for Python)
 
 To install Rasa, you can use the following pip command:<br />
-```pip install rasa```
+```pip install requirements.txt```
 
 Once you have Rasa installed, you can clone this repository and navigate to the directory containing the chatbot files.
 
