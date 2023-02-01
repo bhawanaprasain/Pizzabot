@@ -13,7 +13,6 @@ Rasa is an open-source machine learning framework that enables the development o
 
 ## Getting Started
 
-Getting Started
 Before getting started with the chatbot, make sure you have the following requirements installed:
 
 - Python 3 
