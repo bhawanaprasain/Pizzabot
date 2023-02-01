@@ -1,0 +1,16 @@
+version: "3.0"
+
+responses:
+  utter_chitchat/ask_howdoing:
+  - text: "I am doing great!"
+
+  utter_chitchat/ask_howold:
+  - text: I have been taking orders since Feb 2022.
+
+  utter_chitchat/ask_isbot:
+  - text: Yes, I am a bot. I can help you order a pizza.
+
+  utter_chitchat/tell_joke:
+  - text: Evening news is where they begin with 'Good evening', and then proceed to tell you why it isn't.
+  - text: Worrying works! 90% of the things I worry about never happen.
+  - text: Why couldn't the bicycle stand? Because it was two tired.

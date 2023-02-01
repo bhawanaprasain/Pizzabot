@@ -1,0 +1,48 @@
+version: "3.0"
+nlu:
+  - lookup: size
+    examples: |
+      - large
+      - small
+      - mini
+      - medium
+      - big
+      - 11 inches 
+      - 14 inches 
+      - 12 inches
+  
+  - lookup: item
+    examples: |
+      - chicken pizza
+      - vegetarian pizza
+      - margherita pizza
+      - cheese pizza
+      - barbeque pizza
+      - tandoori pizza
+      - funghi pizza
+      - mushroom pizza
+      - mixed pizza
+      - gluten free pizza
+
+  - lookup: topping
+    examples: |
+      - Barbeque Chicken
+      - Buffalo Chicken
+      - Sweet Pig
+      - bleu Cheese
+      - cheddar Cheese
+      - parmessan cheese
+      - Tomato
+      - Meatballs
+      - Diced Pepperoni
+      - Italian Herbs
+      - Pineapple
+      - Red Peppers
+      - Basil
+      - Artichoke
+      - Mozzarella
+      - Tomato Sauce
+      - ranch
+      - salsa 
+
+  

@@ -1,0 +1,89 @@
+version: "3.0"
+
+nlu:
+- intent: chitchat/ask_howdoing
+  examples: |
+    - how is your morning so far
+    - how are you getting on
+    - how's your day going
+    - how are you?
+
+- intent: chitchat/ask_howold
+  examples: |
+    - Whats your age?
+    - and you are how many years old?
+    - can you tell me your age?
+    - do you know how old you are?
+    - give me your age?
+    - how about your age
+    - how many ages?
+
+- intent: chitchat/ask_isbot
+  examples: |
+    - Are you a bot
+    - Are you a chatbot?
+    - Hi there, are you the bot?
+    - are you a robot
+    - are you ai
+    - are you artificial
+    - are you artificial intelligence
+    - are you bot
+    - are you bot?
+    - are you real
+    - are you real lol
+    - are you really a bot
+    - are you robot
+    - are you sure that you're a bot?
+    - bot?
+    - i guess you are a chatbot
+    - oh are you chatbot?
+    - tell me, are you a bot?
+    - what are you, a bot?
+    - you are a robot
+    - you are ai
+    - you are chatbot
+    - you're a bot
+    - real bot then?
+    - are you really a bbot?
+    - hey are you human
+    - are u human
+    - are you real human?
+    - you are a human
+    - you are bot or human?
+    - are you human
+    - you are human or bot
+    - Are you human?
+    - are you a human ?
+    - Are you human ?
+    - Are you a human being?
+    - r u real?
+    - are you a real person
+    - are u a real person?
+    - Are you a real person?
+    - are you a real person?
+    - are you real person or chat bot?
+    - you sound like a real human
+    - wow you sound like real human
+    - are you human ?
+
+- intent: chitchat/tell_joke
+  examples: |
+    - Can you tell a joke?
+    - Can you tell me a joke.
+    - Could you please share a joke with me.
+    - Do you know any jokes?
+    - I want to hear something funny.
+    - Know any jokes?
+    - Please tell me a joke.
+    - tell me a hilarious joke
+    - Tell me a joke
+    - Say something funny.
+    - Share a joke with me!.
+    - Tell me something funny.
+    - Tell me something humorous!
+    - Tell me the best joke you know.
+    - Will you tell me a joke.
+    - Would you share a joke with me.
+    - Would you tell me a joke
+    - give me a good joke
+    - make me laugh with a joke

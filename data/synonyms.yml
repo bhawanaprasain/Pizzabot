@@ -1,0 +1,27 @@
+version: "3.0"
+nlu:
+  - synonym: large
+    examples: |
+      - L
+      - big
+
+  - synonym: small
+    examples: |
+      - mini
+      - s
+      - S
+
+  - synonym: medium
+    examples: |
+      - M
+      - m
+
+  - synonym: vegetarian
+    examples: |
+      - veggie
+      - veg
+
+  - synonym: barbeque
+    examples: |
+      - bbq
+      

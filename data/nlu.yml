@@ -1,0 +1,182 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+    - hello world
+    - hi there
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thanks, goodbye
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - /affirm
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: stop
+  examples: |
+    - stop
+    - nevermind
+    - please stop
+    - i want to stop
+    - stop the form
+
+- intent: order_pizza
+  examples: |
+    - I would like to order a pizza.
+    - Can I order a pizza?
+    - I'd like to place an order for pizza.
+    - can you help me get some pizza?
+    - want to order pizza
+    - can you take my pizza order?
+    - need some pizza 
+    - i want pizza
+    - gimme Pizza
+    - give me Pizza
+    - you have pizza?
+    - do you order pizza?
+    - i think i want pizza
+    - order pizza for me please 
+    - i am in the mood for some Pizza
+    - i'd like to buy a pizza
+    - i want a pizza
+    - can i buy a pizza
+    - i want to buy a pizza
+
+- intent: place_order
+  examples: |
+    - i'd like a [large](size) pizza
+    - [Pepproni](pizza_type) pizza
+    - I would like to have a [Vegeterian](pizza_type) pizza
+    - I would like to order a [chicken](pizza_type) pizza
+    - I'd like [veggie](pizza_type) pizza
+    - let me order [Chicken](pizza_type) pizza [small](size) with [no olives](topping)
+    - can i get a [large](size) [chicken](pizza_type) pizza with [blue cheese](topping)
+    - let me have [veg](pizza_type) pizza [mini](size) with [tomatoes](topping)
+    - i feel like eating [barbeque](pizza_type) pizza with [olives](topping)
+    - can I have a [large](size) [chicken](pizza_type) pizza with extra [cheese](topping)
+    - just two [veg](pizza_type) pizza with [green onions](topping)
+    - [Chicken](pizza_type) pizza [large](size) with [bbq sauce](topping)
+    - [fungi](pizza_type) pizza with [tomatoes](topping) and [cheese](topping)
+    - i want to have a [large](size) [chicken](pizza_type) pizza
+    - I want two [small](size) [Funghi](pizza_type) pizza
+    - I want one [Funghi](pizza_type) [small](size)
+    - I want [hawai](pizza_type) pizza
+    - I want a [large](size) please
+    - I [hawaii](pizza_type) pizza [small](size)
+    - I want [small](size) [funghi](pizza_type) pizza
+    - two [small](size) [Funghi](pizza_type) pizza
+    - two [medium](size) [Margherita](pizza_type) pizza
+    - 2 [large](size) [Hawaii](pizza_type) pizza
+    - two [medium](size) [Pepperoni](pizza_type) pizza
+    - 4 [small](size) [Vegetarian](pizza_type) pizza
+    - four [medium](size) [Margherita](pizza_type)
+    - 4 [large](size) [Hawaii](pizza_type)
+    - one [big](size) [veg](pizza_type) pizza
+    - two [L](size) [chicken](pizza_type) pizza
+    - three [S](size) [vegetarian](pizza_type) pizza
+    - three [s](size) [vegetarian](pizza_type)  pizza
+    - three [l](size) [vegetarian](pizza_type) pizza
+    - three [m](size) [vegetarian](pizza_type) pizza
+    - three [M](size) [vegetarian](pizza_type) pizza
+    - I have [bbq](pizza_type) pizza
+    - [veg](pizza_type) pizza i like
+    - [vegetarian](pizza_type) pizza for me
+    - i'd like a [large](size) pizza
+    - i want to order a [xl](size) [hawai](pizza_type) pizza
+    - [medium](size) pizza
+    - [xl](size)
+    - [small](size)
+    - [s](size)
+    - [pepperoni](pizza_type)
+    - give me a [mozerella](pizza_type) pizza
+    - [hawaii](pizza_type) pizza
+    - [smol](size)
+    - [hawaii](pizza_type)
+    - i want a [large](size) pizza
+    - [mozzarella](pizza_type)
+    - [hawai](pizza_type)
+    - [veggie](pizza_type)
+    - [fungi](pizza_type)
+    - i want a [large](size) pizza
+    - [vegggie](pizza_type)
+    - [veggie](pizza_type)
+    - extra [cheese](topping)
+    - extra [olives](topping)
+    - extra [salami](topping)
+    - [cheese](topping) topping
