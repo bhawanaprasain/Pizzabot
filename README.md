@@ -41,6 +41,11 @@ Now we have the Rasa server up and running, and the chatbot will be available to
 To talk with the bot, you can use the following command:<br />
 ```rasa shell```
 
+
+## Running the application via docker
+First you should have docker installed on your system. With that to run the chatbot in docker environment, you can use the following command:<br />
+```docker-compose up```
+
 ## Customizing the Chatbot<br />
 The chatbot's behavior and responses are defined in the data/nlu.yml and data/domain.yml files. You can modify these files to add your own custom intents and responses. Additionally, the chatbot's conversational flow is defined in the stories.yml file, and you can modify this file to add custom actions and change the flow of the conversation.
 
