@@ -1,5 +1,5 @@
 ## Introduction
-Welcome to the Pizzabot! This chatbot has been developed using the open-source machine learning framework [Rasa](https://rasa.com/). The chatbot can handle a variety of tasks, including taking the customer's order, suggesting menu items, providing information about toppings and finally confirming the order.
+Welcome to the Pizzabot! This chatbot has been developed using the open-source machine learning framework [Rasa](https://rasa.com/).The chatbot allows users to book  flights to different destinations of Nepal. It can be extented to handle queries related to flight schedules, ticket prices, and seat availability. 
 
 ## About RASA
 Rasa is an open-source machine learning framework that enables the development of conversational AI chatbots. The Rasa stack consists of two main components:
